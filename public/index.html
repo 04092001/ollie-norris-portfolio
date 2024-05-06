@@ -1,38 +1,225 @@
-<!DOCTYPE html>
+<!doctype html>
+<!-- 
+Add picture on tight side of hero
+Get real pictures on there
+Better footer
+Optimise for mobile
+Get more detailed about me and skills sections
+Load on scroll
+Navbar
+Slideshow
+Spacing between work and skills
+Domain name 
+Hero font
+-->
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="./output.css" rel="stylesheet" />
-    <title>Oliver Norris</title>
-  </head>
-  <body>
-    <section class="h-screen">
-      <nav>
-        <ul class="flex">
-          <li>About</li>
-          <li>Work</li>
-          <li>Contact Me</li>
-        </ul>
-      </nav>
-      <div>
-        <h1>Ollie Norris</h1>
-        <h1>Third Year Illustration Undergraduate at UAL:</h1>
-      </div>
-    </section>
-    <section>
-      <div>
-        <h1>About Me</h1>
-        <h1>
-          Oliver John Norris is a third year Illustration undergraduate living
-          and studying in South East London. Originally from Rochdale in Greater
-          Manchester, he developed a passion for print-making, etching, and a
-          wide array of disciplines. In his spare time, he writes and plays
-          music and is the lead bass for psychadelic indie rock band Fode.
-        </h1>
-      </div>
-    </section>
-    <section><h1>Skills</h1></section>
-    <section><h1>Work</h1></section>
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="./output.css" rel="stylesheet" />
+        <title>Oliver Norris</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body class="bg-onBlack text-onLightGrey">
+        <div>
+            <section>
+                <div class="mx-20 h-screen">
+                    <nav class="flex justify-between pt-8">
+                        <div><h1 class="text-3xl">PORTFOLIO</h1></div>
+                        <ul
+                            class="flex justify-end gap-x-10 font-bodoni text-lg"
+                        >
+                            <button>About</button>
+                            <button>Work</button>
+                            <button>Contact Me</button>
+                        </ul>
+                    </nav>
+                    <div class="flex h-5/6 items-center justify-center">
+                        <div class="w-4/6 text-2xl">
+                            <h1 class="text-onLightGrey">Hello, I am</h1>
+                            <div class="">
+                                <h1
+                                    class="text-onLightGrey mb-2 pb-1 pt-4 text-6xl font-medium"
+                                >
+                                    Oliver Norris
+                                </h1>
+                            </div>
+                            <h1 class="text-onDarkGrey Grey pb-4 text-3xl">
+                                a Third Year Illustration (BA) Undergraduate and
+                                future Printmaking (MA) Postgraduate.
+                            </h1>
+                            <button
+                                class="hover:bg-onDarkGrey bg-onRedTwo hover:text-onBlack text-onRed rounded p-2 text-left text-2xl transition-all"
+                            >
+                                Contact Me
+                            </button>
+                            <div class="contactbuttons hidden gap-x-4 pt-4">
+                                <ion-icon
+                                    class="text-onLightGrey text-3xl"
+                                    name="logo-instagram"
+                                ></ion-icon>
+                                <ion-icon
+                                    class="text-onLightGrey text-3xl"
+                                    name="mail"
+                                ></ion-icon>
+                                <ion-icon
+                                    class="text-onLightGrey text-3xl text-black"
+                                    name="logo-paypal"
+                                ></ion-icon>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="bg-onBlack h-screen px-40 font-bodoni">
+                <div class="grid grid-cols-2 gap-y-40 pb-32">
+                    <section>
+                        <div>
+                            <h1 class="my-4 text-4xl">About Me</h1>
+                            <div class="text-3xl">
+                                <h1 class="text-3xl">
+                                    Oliver John Norris is a third year
+                                    Illustration undergraduate living and
+                                    studying in South East London. Originally
+                                    from Rochdale in Greater Manchester, he
+                                    developed a passion for print-making,
+                                    etching, and a wide array of disciplines.
+                                </h1>
+                                <h1 class="pt-4">
+                                    Now studying in UAL : Camberwell, in first
+                                    year started x and then moved towrds y. In
+                                    his spare time, he writes and plays music
+                                    and is the lead bass for psychadelic indie
+                                    rock band
+                                    <a
+                                        href="https://open.spotify.com/artist/6qDEKtJreZFguI4RJJR5ea"
+                                        ><span class="text-stone-600"
+                                            >Fode.</span
+                                        ></a
+                                    >
+                                </h1>
+                            </div>
+                        </div>
+                    </section>
+                    <div></div>
+                    <div></div>
+                    <section>
+                        <div class="my-4">
+                            <h1 class="my-4 text-4xl">Skills</h1>
+                            <h1 class="mb-2 text-2xl">List of skills:</h1>
+                            <ul class="grid grid-cols-3 gap-y-2 text-xl">
+                                <div class="flex items-center align-middle">
+                                    <ion-icon
+                                        name="chevron-forward-outline"
+                                    ></ion-icon>
+                                    <li>Relief Printing</li>
+                                </div>
+                                <div class="flex items-center align-middle">
+                                    <ion-icon
+                                        name="chevron-forward-outline"
+                                    ></ion-icon>
+                                    <li>Intaglio Printing</li>
+                                </div>
+                                <div class="flex items-center align-middle">
+                                    <ion-icon
+                                        name="chevron-forward-outline"
+                                    ></ion-icon>
+                                    <li>Screen Printing</li>
+                                </div>
+                                <div class="flex items-center align-middle">
+                                    <ion-icon
+                                        name="chevron-forward-outline"
+                                    ></ion-icon>
+                                    <li>Fineline Pen</li>
+                                </div>
+                                <div class="flex items-center align-middle">
+                                    <ion-icon
+                                        name="chevron-forward-outline"
+                                    ></ion-icon>
+                                    <li>Ink Illustration</li>
+                                </div>
+                                <div class="flex items-center align-middle">
+                                    <ion-icon
+                                        name="chevron-forward-outline"
+                                    ></ion-icon>
+                                    <li>Painting</li>
+                                </div>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+            </section>
+            <section>
+                <div class="px-40">
+                    <h1 class="my-4 font-bodoni text-4xl">Projects</h1>
+                    <div class="grid grid-cols-3 gap-x-4">
+                        <div
+                            class="flex flex-col gap-2 border border-stone-950"
+                        >
+                            <div>
+                                <img
+                                    class="h-full w-full"
+                                    src="http://unsplash.it/250/550?gravity=center"
+                                    alt=""
+                                />
+                            </div>
+                            <div>
+                                <img
+                                    class="h-full w-full"
+                                    src="http://unsplash.it/250/150?gravity=center"
+                                    alt=""
+                                />
+                            </div>
+                        </div>
+                        <div class="border border-stone-950"></div>
+                        <div class="border border-stone-950"></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <footer>
+                    <div class="pb-10 pt-10">
+                        <h1 class="text-center">Designed Using Tailwind</h1>
+                    </div>
+                </footer>
+            </section>
+        </div>
+        <script src="./script.js"></script>
+        <script type="module">
+            // Import the functions you need from the SDKs you need
+            import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.11.1/firebase-app.js'
+            import { getAnalytics } from 'https://www.gstatic.com/firebasejs/10.11.1/firebase-analytics.js'
+            // TODO: Add SDKs for Firebase products that you want to use
+            // https://firebase.google.com/docs/web/setup#available-libraries
+
+            // Your web app's Firebase configuration
+            // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+            const firebaseConfig = {
+                apiKey: 'AIzaSyCVaSeZadTINyx4GT7k3t1M8g0ZVqpnxSc',
+                authDomain: 'john-bones.firebaseapp.com',
+                projectId: 'john-bones',
+                storageBucket: 'john-bones.appspot.com',
+                messagingSenderId: '990216972647',
+                appId: '1:990216972647:web:cc547c26005e5e93bf27c2',
+                measurementId: 'G-DB3R8GEBLJ',
+            }
+
+            // Initialize Firebase
+            const app = initializeApp(firebaseConfig)
+            const analytics = getAnalytics(app)
+        </script>
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
 </html>
