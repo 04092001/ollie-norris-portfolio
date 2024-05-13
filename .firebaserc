@@ -1,0 +1,11 @@
+{
+  "projects": {
+    "default": "john-bones"
+  },
+  "targets": {},
+  "etags": {
+    "john-bones": {
+      "extensionInstances": {}
+    }
+  }
+}

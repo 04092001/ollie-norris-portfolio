@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: 'Multivac Ghost';
+        font-style: normal;
+        font-weight: normal;
+        font-display: swap;
+        src: url(assets/font/multivac/Multivac-Ghost) format('woff2');
+    }
+}
+
+@font-face {
+    font-family: 'multivac';
+    src: url('..//assets/font/multivac/Multivac-Ghost.woff2');
+}

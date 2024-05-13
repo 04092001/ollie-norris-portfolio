@@ -1,16 +1,24 @@
 <!doctype html>
 <!-- 
+For Submission:
+red font
+scroll to top on change page
+
+After Submission:  
+responsive
 Add picture on tight side of hero
 Get real pictures on there
 Better footer
 Optimise for mobile
 Get more detailed about me and skills sections
 Load on scroll
+load more choice
 Navbar
 Slideshow
 Spacing between work and skills
 Domain name 
-Hero font
+Navigation doesn't really make sense
+dashed line for showcase
 -->
 <html lang="en">
     <head>
@@ -24,171 +32,117 @@ Hero font
             href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&display=swap"
             rel="stylesheet"
         />
+        <link rel="stylesheet" href="https://use.typekit.net/vym2pbe.css" />
     </head>
-    <body class="bg-onBlack text-onLightGrey">
-        <div>
-            <section>
-                <div class="mx-20 h-screen">
-                    <nav class="flex justify-between pt-8">
-                        <div><h1 class="text-3xl">PORTFOLIO</h1></div>
-                        <ul
-                            class="flex justify-end gap-x-10 font-bodoni text-lg"
+    <body class="bg-background text-grey">
+        <section>
+            <div>
+                <div id="nav">
+                    <nav
+                        class="sm:mx-20 sm:flex sm:h-32 sm:items-center sm:justify-between"
+                    >
+                        <div
+                            class="sm: flex gap-x-4 text-center font-multivacGhost text-6xl sm:text-left"
                         >
-                            <button>About</button>
-                            <button>Work</button>
-                            <button>Contact Me</button>
-                        </ul>
-                    </nav>
-                    <div class="flex h-5/6 items-center justify-center">
-                        <div class="w-4/6 text-2xl">
-                            <h1 class="text-onLightGrey">Hello, I am</h1>
-                            <div class="">
-                                <h1
-                                    class="text-onLightGrey mb-2 pb-1 pt-4 text-6xl font-medium"
+                            <h1>Oliver Norris | Illustrator & Printmaker</h1>
+                        </div>
+                        <div
+                            id="nav"
+                            class="flex-column text-center text-lg sm:gap-x-10 sm:text-left md:flex"
+                        >
+                            <div>
+                                <a href="index.html"
+                                    ><button id="aboutButton">
+                                        <h1
+                                            class="cursor-pointer transition-all"
+                                        >
+                                            About Me
+                                        </h1>
+                                    </button></a
                                 >
-                                    Oliver Norris
-                                </h1>
                             </div>
-                            <h1 class="text-onDarkGrey Grey pb-4 text-3xl">
-                                a Third Year Illustration (BA) Undergraduate and
-                                future Printmaking (MA) Postgraduate.
-                            </h1>
-                            <button
-                                class="hover:bg-onDarkGrey bg-onRedTwo hover:text-onBlack text-onRed rounded p-2 text-left text-2xl transition-all"
-                            >
-                                Contact Me
-                            </button>
-                            <div class="contactbuttons hidden gap-x-4 pt-4">
-                                <ion-icon
-                                    class="text-onLightGrey text-3xl"
-                                    name="logo-instagram"
-                                ></ion-icon>
-                                <ion-icon
-                                    class="text-onLightGrey text-3xl"
-                                    name="mail"
-                                ></ion-icon>
-                                <ion-icon
-                                    class="text-onLightGrey text-3xl text-black"
-                                    name="logo-paypal"
-                                ></ion-icon>
+                            <div>
+                                <a href="./pages/projects.html">
+                                    <button
+                                        id="projectsButton"
+                                        class="cursor-pointer transition-all"
+                                    >
+                                        <h1>Projects</h1>
+                                    </button>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="./pages/contact.html">
+                                    <button
+                                        id="contactButton"
+                                        class="cursor-pointer transition-all"
+                                    >
+                                        <h1>Contact</h1>
+                                    </button></a
+                                >
                             </div>
                         </div>
-                    </div>
+                    </nav>
                 </div>
-            </section>
-            <section class="bg-onBlack h-screen px-40 font-bodoni">
-                <div class="grid grid-cols-2 gap-y-40 pb-32">
-                    <section>
+                <div
+                    id="aboutMe"
+                    class="bg-onBlack items-center justify-center font-bodoni sm:flex sm:flex-col sm:px-28"
+                >
+                    <div class="pt-4 sm:flex">
                         <div>
-                            <h1 class="my-4 text-4xl">About Me</h1>
-                            <div class="text-3xl">
-                                <h1 class="text-3xl">
-                                    Oliver John Norris is a third year
-                                    Illustration undergraduate living and
-                                    studying in South East London. Originally
-                                    from Rochdale in Greater Manchester, he
-                                    developed a passion for print-making,
-                                    etching, and a wide array of disciplines.
+                            <h1
+                                class="pb-4 text-center font-leather text-4xl sm:text-left"
+                            >
+                                About Me
+                            </h1>
+                            <div
+                                class="grid grid-cols-1 gap-y-2 text-center text-lg sm:text-left sm:text-3xl"
+                            >
+                                <h1 class="font-thin leading-10">
+                                    Ollie Norris is an illustrator and
+                                    printmaker from Lancashire, working in
+                                    London. He blends the rural ancient magic of
+                                    Northern England with the grand architecture
+                                    and history of London to create intricate
+                                    and fantastical depictions of nature, occult
+                                    and folk religion, and otherworldly beings.
+                                    His work consists of delicate traditional
+                                    fineline ink drawings, alongside prints,
+                                    predominantly etchings.
                                 </h1>
-                                <h1 class="pt-4">
-                                    Now studying in UAL : Camberwell, in first
-                                    year started x and then moved towrds y. In
-                                    his spare time, he writes and plays music
-                                    and is the lead bass for psychadelic indie
-                                    rock band
+                                <h1 class="pt-4 font-thin leading-10">
+                                    The use of traditional methods is important
+                                    in Ollie's work and these hand drawn images
+                                    and painstakingly crafted prints reflect a
+                                    more human side of art that displays the
+                                    intricacies of the processes he employs.
+                                    Ollie has created works for exciting
+                                    companies such as Bison Brewing and
+                                    continues to design merchandise and graphics
+                                    for bands in the London music scene such as
                                     <a
                                         href="https://open.spotify.com/artist/6qDEKtJreZFguI4RJJR5ea"
-                                        ><span class="text-stone-600"
-                                            >Fode.</span
+                                        ><span class="text-slate-100"
+                                            >Fodé</span
                                         ></a
                                     >
+                                    and the Bones Experience.
                                 </h1>
                             </div>
                         </div>
-                    </section>
-                    <div></div>
-                    <div></div>
-                    <section>
-                        <div class="my-4">
-                            <h1 class="my-4 text-4xl">Skills</h1>
-                            <h1 class="mb-2 text-2xl">List of skills:</h1>
-                            <ul class="grid grid-cols-3 gap-y-2 text-xl">
-                                <div class="flex items-center align-middle">
-                                    <ion-icon
-                                        name="chevron-forward-outline"
-                                    ></ion-icon>
-                                    <li>Relief Printing</li>
-                                </div>
-                                <div class="flex items-center align-middle">
-                                    <ion-icon
-                                        name="chevron-forward-outline"
-                                    ></ion-icon>
-                                    <li>Intaglio Printing</li>
-                                </div>
-                                <div class="flex items-center align-middle">
-                                    <ion-icon
-                                        name="chevron-forward-outline"
-                                    ></ion-icon>
-                                    <li>Screen Printing</li>
-                                </div>
-                                <div class="flex items-center align-middle">
-                                    <ion-icon
-                                        name="chevron-forward-outline"
-                                    ></ion-icon>
-                                    <li>Fineline Pen</li>
-                                </div>
-                                <div class="flex items-center align-middle">
-                                    <ion-icon
-                                        name="chevron-forward-outline"
-                                    ></ion-icon>
-                                    <li>Ink Illustration</li>
-                                </div>
-                                <div class="flex items-center align-middle">
-                                    <ion-icon
-                                        name="chevron-forward-outline"
-                                    ></ion-icon>
-                                    <li>Painting</li>
-                                </div>
-                            </ul>
-                        </div>
-                    </section>
-                </div>
-            </section>
-            <section>
-                <div class="px-40">
-                    <h1 class="my-4 font-bodoni text-4xl">Projects</h1>
-                    <div class="grid grid-cols-3 gap-x-4">
                         <div
-                            class="flex flex-col gap-2 border border-stone-950"
+                            class="hidden items-center justify-center pl-2 sm:flex"
                         >
-                            <div>
-                                <img
-                                    class="h-full w-full"
-                                    src="http://unsplash.it/250/550?gravity=center"
-                                    alt=""
-                                />
-                            </div>
-                            <div>
-                                <img
-                                    class="h-full w-full"
-                                    src="http://unsplash.it/250/150?gravity=center"
-                                    alt=""
-                                />
-                            </div>
+                            <img
+                                src="assets/ollie-portfolio-pictures/F541BE5C-72AF-4D7B-9D86-0EC41B7AE9E0.JPG"
+                                alt=""
+                                class="h-auto w-full rounded-md"
+                            />
                         </div>
-                        <div class="border border-stone-950"></div>
-                        <div class="border border-stone-950"></div>
                     </div>
                 </div>
-            </section>
-            <section>
-                <footer>
-                    <div class="pb-10 pt-10">
-                        <h1 class="text-center">Designed Using Tailwind</h1>
-                    </div>
-                </footer>
-            </section>
-        </div>
+            </div>
+        </section>
         <script src="./script.js"></script>
         <script type="module">
             // Import the functions you need from the SDKs you need
